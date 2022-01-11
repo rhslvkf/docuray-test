@@ -5,4 +5,3 @@ public class DocuRayTest {
 		// 12345
 	}
 }
-1
