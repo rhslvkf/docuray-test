@@ -1,8 +1,9 @@
 
-// stdafx.cpp : Ç¥ÁØ Æ÷ÇÔ ÆÄÀÏ¸¸ µé¾î ÀÖ´Â ¼Ò½º ÆÄÀÏÀÔ´Ï´Ù.
-// TreeViewTest.pch´Â ¹Ì¸® ÄÄÆÄÀÏµÈ Çì´õ°¡ µË´Ï´Ù.ddd
-// stdafx.obj¿¡´Â ¹Ì¸® ÄÄÆÄÀÏµÈ Çü½Ä Á¤º¸°¡ Æ÷ÇÔµË´Ï´Ù.cc123
+// stdafx.cpp : í‘œì¤€ í¬í•¨ íŒŒì¼ë§Œ ë“¤ì–´ ìžˆëŠ” ì†ŒìŠ¤ íŒŒì¼ìž…ë‹ˆë‹¤.
+// TreeViewTest.pchëŠ” ë¯¸ë¦¬ ì»´íŒŒì¼ëœ í—¤ë”ê°€ ë©ë‹ˆë‹¤.ddd
+// stdafx.objì—ëŠ” ë¯¸ë¦¬ ì»´íŒŒì¼ëœ í˜•ì‹ ì •ë³´ê°€ í¬í•¨ë©ë‹ˆë‹¤.cc123
 //test33
+//test45
 
 #include "stdafx.h"
 
