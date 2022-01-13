@@ -1,0 +1,99 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'SecureFilePreviewer'
+				'SecureFilePreviewer.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

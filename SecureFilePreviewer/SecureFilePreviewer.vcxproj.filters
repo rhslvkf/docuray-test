@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2c7336c1-d9a9-4ef9-9a03-77c022d1bbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Log">
+      <UniqueIdentifier>{d68e35bc-b1d8-4d5b-9712-c13517ddfa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utils">
+      <UniqueIdentifier>{c9008872-337d-4f6f-a2b2-32fc5655ca2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\SNTP">
+      <UniqueIdentifier>{0b262864-196a-4a9d-8394-06ca411abd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dlg">
+      <UniqueIdentifier>{2053da32-7d25-464d-af17-2d025f0a13a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Dlg">
+      <UniqueIdentifier>{c211e252-e4fe-40c7-b1f7-361c68054d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IExplorerBrowser">
+      <UniqueIdentifier>{49c06f7c-b5a8-41a9-9ed2-3616bd32f5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IExplorerBrowser">
+      <UniqueIdentifier>{78baedea-ca7f-4156-8261-c8d4b9d1617b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataManager">
+      <UniqueIdentifier>{db00a646-3d8a-41bc-a55c-96aab45edb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataManager">
+      <UniqueIdentifier>{cdbc352c-4819-49ee-98c7-80da904e12fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utils_UI">
+      <UniqueIdentifier>{523bbbca-785e-4920-afe9-3e1f6f818244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Lib_public">
+      <UniqueIdentifier>{f770a3da-4253-4565-97de-73a92b0dfa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PreviewerSupport">
+      <UniqueIdentifier>{0506b63e-8d26-4871-bff8-3b9e24951fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PreviewerSupport">
+      <UniqueIdentifier>{5105994f-07b0-4b2b-9721-74f30c62f78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Thread">
+      <UniqueIdentifier>{32576915-ca6f-4797-bade-51f56d16492d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Thread">
+      <UniqueIdentifier>{f1ff36b5-7a05-40e5-97ab-9a3617c216af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewIExplorerBrowser.h">
+      <Filter>헤더 파일\IExplorerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utils_UI\CustomBitmapBtn.h">
+      <Filter>Common\Utils_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewSupport.h">
+      <Filter>헤더 파일\PreviewerSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewDlg.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureFilePreviewDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureFilePreview.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ConnectionCheckThread.h">
+      <Filter>헤더 파일\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\GlobalDataManager.h">
+      <Filter>헤더 파일\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Lib_Public\WinOSLibrary.h">
+      <Filter>Common\Lib_public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Log\RealTimeLogII.cpp">
+      <Filter>Common\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\AgentDlgUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\TimeUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\PathUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\StringUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\CharSetConvertUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SNTP\Sntp.cpp">
+      <Filter>Common\SNTP</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewIExplorerBrowser.cpp">
+      <Filter>소스 파일\IExplorerBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils_UI\CustomBitmapBtn.cpp">
+      <Filter>Common\Utils_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Lib_Public\FileLibrary.cpp">
+      <Filter>Common\Lib_public</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewSupport.cpp">
+      <Filter>소스 파일\PreviewerSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\SystemUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\RegistryUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewDlg.cpp">
+      <Filter>소스 파일\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureFilePreviewDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureFilePreview.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ConnectionCheckThread.cpp">
+      <Filter>소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\GlobalDataManager.cpp">
+      <Filter>소스 파일\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utils\OSInfoUtils.cpp">
+      <Filter>Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Lib_Public\WinOSLibrary.cpp">
+      <Filter>Common\Lib_public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecureFilePreviewer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SecureFilePreviewer.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="SecureFilePreviewer.rgs">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SecureFilePreviewer.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Folder_Yellow.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Folder_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Back_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\back_Gray.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Front_Gray.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Front_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Upper_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Upper_Gray.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\TitleBk_Bar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Separator.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="ExplorerBrowser.idl">
+      <Filter>리소스 파일</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
